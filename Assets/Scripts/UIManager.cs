@@ -21,4 +21,9 @@ public class UIManager : MonoBehaviour
 	{
 		SceneManager.LoadScene("FirstLevel");
 	}
+	
+	public void ExitToStart()
+	{
+		SceneManager.LoadScene(1);
+	}
 }
